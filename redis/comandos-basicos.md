@@ -1,6 +1,6 @@
 | **Comando Redis**              | **Breve explicación**                                                 | **Ejemplo de salida**                                                        |
 | ------------------------------ | --------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| `PING`                         | Comprueba que el servidor Redis está vivo. Responde con un *PONG*.    | `127.0.0.1:6379> PING <br> PONG`                                             |
+| `PING`                         | Comprueba que el servidor Redis está vivo. Responde con un *PONG*.    | `127.0.0.1:6379> PING PONG`                                             |
 | `SET clave valor`              | Guarda un par clave–valor en Redis.                                   | `127.0.0.1:6379> SET aitor-bd "url" <br> OK`                                 |
 | `GET clave`                    | Recupera el valor de una clave.                                       | `127.0.0.1:6379> GET aitor-bd <br> "aitor-medrano.github.io/bd"`             |
 | `MSET k1 v1 k2 v2 ...`         | Inserta múltiples pares clave–valor.                                  | `127.0.0.1:6379> MSET a b x y <br> OK`                                       |
@@ -19,4 +19,4 @@
 | `CONFIG SET parámetro valor`   | Cambia configuración en caliente (temporal hasta reinicio).           | `127.0.0.1:6379> CONFIG SET appendonly yes <br> OK`                          |
 
 Fuente:
-[Aitor medrano - Redis](https://aitor-medrano.github.io/bd/12redis.html)
+[Aitor Medrano - Redis](https://aitor-medrano.github.io/bd/12redis.html)
