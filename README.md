@@ -1,4 +1,4 @@
-# Sistemas de Big Data. Unidade 2. Bases de datos NoSQL
+# Sistemas de Big Data. Unidade 7. Bases de datos NoSQL
 
 Este repositorio recolle os contidos, apuntes e materiais empregados na docencia sobre bases de datos NoSQL, MongoDB e outras tecnoloxías relacionadas.
 
@@ -13,7 +13,7 @@ Conceptos esenciais, tipoloxías, comparación co modelo relacional e ámbitos d
 
 ---
 
-## 🍃 Sección MongoDB
+## 🍃 Anexos MongoDB
 Toda a documentación específica de MongoDB (conceptos, instalación, consultas, modelado, agregacións, replicación e sharding, acceso desde Python…) atópase no seguinte subdirectorio:
 
 - [MongoDB](https://github.com/adbgonzalez/NoSQL/blob/main/mongodb/README.md)
